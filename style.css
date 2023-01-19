@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color:cadetblue;
+}
+
+#grid-num {
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:cadetblue;
+    border-radius: 10px;
+    color: white;
+}
+
+#grid-num:hover {
+    background-color:rgb(66, 106, 107);
+}
+
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns:repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    width: 725px;
+    height: 725px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.white-tile {
+    background-color: white;
+    transition: background-color 3s linear;
+    transition-delay: 5s;
+}
+
+.black-tile {
+    background-color: black;
+}
